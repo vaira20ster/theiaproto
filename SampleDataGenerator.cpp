@@ -16,7 +16,7 @@ int main()
 
     myFile.open("C:\\Renesas\\C Compile Demo\\SampleData.csv");
 
-    myFile << "Number" << "," << "Addition" << "," <<"Multiple" << endl;
+    myFile << "Number(a)" << "," << "a + a" << "," <<"a x a" << endl;
 
     for(int i = 0; i < 10; i++)
 
@@ -27,5 +27,5 @@ int main()
     }
     myFile.close();
     Sleep(1000);
-    std::cout << "Generated Successfully." << std::endl;
+    std::cout << " The file SampleData.csv has been generated successfully." << std::endl;
 }
